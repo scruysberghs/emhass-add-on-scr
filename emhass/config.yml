@@ -1,6 +1,6 @@
-name: EMHASS
-description: Energy Management for Home Assistant
-url: https://github.com/davidusb-geek/emhass
+name: EMHASS - scr
+description: Energy Management for Home Assistant - scr
+url: https://github.com/scruysberghs/emhass
 version: v0.12.6 #set if use image container version
 slug: emhass
 arch:
@@ -8,7 +8,7 @@ arch:
   - amd64
   - armhf
   - armv7
-image: "ghcr.io/davidusb-geek/emhass" #set if use image container repository
+image: "ghcr.io/scruysberghs/emhass" #set if use image container repository
 ports:
   5000/tcp: 5000
 ports_description:
